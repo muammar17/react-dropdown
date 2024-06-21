@@ -68,3 +68,56 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Dropdown Component
+
+A reusable dropdown component built with React using `create-react-app` and Storybook for development and documentation.
+
+# React Dropdown Component with Storybook
+
+This project is a React-based dropdown component with Storybook integration for developing, testing, and showcasing the component.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Storybook](#storybook)
+- [Development](#development)
+
+## Introduction
+
+This project provides a customizable dropdown component built with React. It includes a Storybook setup to facilitate the development and testing of the component in isolation.
+
+## Features
+
+- Searchable Dropdown: The isSearchable prop controls this feature.
+- Portal Support: The usePortal prop enables this feature.
+- Single or Multiple Selection: The isMulti prop enables this feature.
+- Customizable Option Rendering: The customOptionRenderer prop allows this.
+- Search Filtering: Handled by react-select's built-in search.
+- Toggle Features: Controlled by props.
+- Z-Index Compatibility: The zIndex prop sets the z-index of the dropdown.
+
+## Installation
+
+First, clone the repository:
+
+git clone `https://github.com/muammar17/react-dropdown.git`
+cd react-dropdown
+
+To install the project dependencies, run the following command:
+`npm install` .
+
+## Storybook
+
+Storybook allows you to develop and test UI components in isolation. To start Storybook, run:
+`npm run storybook`
+This will start the Storybook server and you can view it in your browser at `http://localhost:6006`
+
+## Development 
+
+To start the development server, run:
+`npm start`
+This will start the React development server and you can view your app at `http://localhost:3000`
